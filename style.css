@@ -1,0 +1,128 @@
+:root {
+    --main-bs: hsl(217, 54%, 11%);
+    --card-bs: hsl(216, 50%, 16%);
+    --line-bs: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    background-color: var(--main-bs);
+    font-family: 'outfit', sans-serif;
+}
+
+.card {
+    background-color: var(--card-bs);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    max-width: 23.438rem;
+    margin: 0 auto;
+}
+
+.equilibrium {
+    width: 100%;
+    border-radius: 0.5rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.equilibrium:hover {
+    opacity: 0.4;
+}
+
+.hover-state {
+    background: url(images/icon-view.svg) no-repeat center;
+    background-color: var(--cyan);
+    border-radius: 0.6rem;
+    height: 20.3rem;
+}
+
+.nft {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin: 1rem 0 1rem 0;
+}
+
+a:hover {
+    color: var(--cyan);
+}
+
+.info {
+    color: hsla(215, 51%, 70%, 0.5);
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+    ;
+}
+
+.eth {
+    color: var(--cyan);
+    margin-left: 0.5rem;
+    margin-right: 6rem;
+}
+
+.remain {
+    color: var(--soft-blue);
+    margin-left: 0.5rem;
+}
+
+hr {
+    color: var(--line-bs);
+    margin: 1rem -0.1rem;
+
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+}
+
+.rights {
+    color: var(--soft-blue);
+    margin-left: 1rem;
+}
+
+.pfp {
+    width: 2rem;
+    border: 0.063rem hsla(0, 0%, 100%, 0.9) solid;
+    border-radius: 50%;
+}
+
+.name {
+    color: white;
+    text-decoration: none;
+}
+
+.attribution {
+    font-size: 0.688rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
