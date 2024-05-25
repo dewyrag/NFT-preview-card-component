@@ -69,7 +69,9 @@ a:hover {
 .info {
     color: hsla(215, 51%, 70%, 0.5);
     line-height: 1.5rem;
+    font-size: 1.125rem;
     margin-bottom: 1rem;
+    width: 90%;
 }
 
 .flex {
