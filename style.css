@@ -67,7 +67,7 @@ a:hover {
 }
 
 .info {
-    color: hsla(215, 51%, 70%, 0.5);
+    color: var(--line-bs);
     line-height: 1.5rem;
     font-size: 1.125rem;
     margin-bottom: 1rem;
@@ -76,7 +76,6 @@ a:hover {
 
 .flex {
     display: flex;
-    ;
 }
 
 .eth {
@@ -91,7 +90,7 @@ a:hover {
 }
 
 hr {
-    color: var(--line-bs);
+    color: hsl(215, 32%, 27%);
     margin: 1rem -0.1rem;
 
 }
